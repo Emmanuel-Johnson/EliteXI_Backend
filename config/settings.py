@@ -46,6 +46,19 @@ INSTALLED_APPS = [
     # Third-party apps
     "corsheaders",
     "rest_framework",
+
+    # Local apps
+    "apps.accounts",
+    "apps.cart",
+    "apps.catalog",
+    "apps.core",
+    "apps.notifications",
+    "apps.orders",
+    "apps.payments",
+    "apps.promotions",
+    "apps.reports",
+    "apps.reviews",
+    "apps.wishlist",
 ]
 
 MIDDLEWARE = [
